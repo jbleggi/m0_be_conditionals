@@ -28,17 +28,6 @@ Write a program that evaluates the status of the variables above, and uses logic
 - If the user either has a good record or is over 25 years old, they should pay full price
 - If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
 
-```ruby
-good_driving_record = true
-age = 24
-
-if good_driving_record = true && age >= 25
-    puts "Congrats, you get a discount on your car rental!"
-    elsif good_driving_record = true || age >= 25
-    puts "Sorry, you must pay full price."
-    else puts "Sorry, someone else must sign for this rental."
-    end
-```
 ## Spicy
 
 Write a Ruby program that prints out a String or Integer: The printed value will depend on the value of an Integer. If the Integer is a multiple of 3, print "Fizz". If the Integer is a multiple of 5, print "Buzz". If the Integer is a multiple of both 3 and 5, print "FizzBuzz". If the Integer is not a multiple of either, print the Integer itself.
